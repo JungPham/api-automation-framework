@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="UnsplashSuite" parallel="tests">
+<!--    <listeners>-->
+<!--        <listener class-name="testUtils.RetryListener"/>-->
+<!--    </listeners>-->
+    <test name="Unsplash only API tests">
+        <parameter name="url" value="https://api.unsplash.com"/>
+        <classes>
+            <class name="unsplash.runners.UnsplashRunner"/>
+        </classes>
+    </test>
+</suite>
