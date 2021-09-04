@@ -24,3 +24,10 @@ hs_err_pid*
 
 # IDE's file
 .idea
+
+# Maven
+target/
+dist/
+
+# Package files
+*.jar

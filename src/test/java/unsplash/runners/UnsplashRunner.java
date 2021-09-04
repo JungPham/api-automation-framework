@@ -1,6 +1,5 @@
-package test.java.unsplash.runners;
+package unsplash.runners;
 
-import cucumber.api.CucumberOptions;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
